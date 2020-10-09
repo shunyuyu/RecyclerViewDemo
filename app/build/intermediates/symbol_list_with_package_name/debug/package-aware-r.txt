@@ -1149,6 +1149,7 @@ layout abc_tooltip
 layout activity_main
 layout custom_dialog
 layout fruit_item
+layout fruit_item_hor
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

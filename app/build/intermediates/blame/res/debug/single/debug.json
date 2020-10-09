@@ -168,6 +168,10 @@
         "source": "F:\\AndroidStudioProjects\\RecyclerViewDemo\\app\\src\\main\\res\\drawable-v24\\animal_3.png"
     },
     {
+        "merged": "F:\\AndroidStudioProjects\\RecyclerViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_fruit_item_hor.xml.flat",
+        "source": "F:\\AndroidStudioProjects\\RecyclerViewDemo\\app\\src\\main\\res\\layout\\fruit_item_hor.xml"
+    },
+    {
         "merged": "F:\\AndroidStudioProjects\\RecyclerViewDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_animal_11.png.flat",
         "source": "F:\\AndroidStudioProjects\\RecyclerViewDemo\\app\\src\\main\\res\\drawable-v24\\animal_11.png"
     },
