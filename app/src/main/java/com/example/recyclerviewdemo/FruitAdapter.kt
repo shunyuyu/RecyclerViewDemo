@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import java.text.SimpleDateFormat
 import java.util.*
 
-class FruitAdapter(private val fruit:List<Fruit>): RecyclerView.Adapter<FruitAdapter.ViewHolder>() {
+class FruitAdapter(private val fruitList:List<Fruit>): RecyclerView.Adapter<FruitAdapter.ViewHolder>() {
     inner class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
         val fruitImage: ImageView = view.findViewById(R.id.fruitImage)
         val fruitName: TextView = view.findViewById(R.id.fruitName)
@@ -22,7 +22,7 @@ class FruitAdapter(private val fruit:List<Fruit>): RecyclerView.Adapter<FruitAda
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val fruit = fruit[position]
+        val fruit = fruitList[position]
         holder.fruitImage.setImageResource(fruit.imageId)
         holder.fruitName.text=fruit.name
         holder.fruitTime.text= getTime()
@@ -34,6 +34,6 @@ class FruitAdapter(private val fruit:List<Fruit>): RecyclerView.Adapter<FruitAda
         return time.format(date)
     }
 
-    override fun getItemCount()=fruit.count()
+    override fun getItemCount()=fruitList.count()
 
 }

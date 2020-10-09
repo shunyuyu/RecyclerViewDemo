@@ -1,4 +1,4 @@
 package com.example.recyclerviewdemo
 
-class Fruit(val name: String, val imageId: Int,val notice:String) {
+class Fruit(val name: String, val imageId: Int) {
 }
